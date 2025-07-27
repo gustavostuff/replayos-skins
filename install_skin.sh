@@ -19,7 +19,7 @@ if ! [[ "$SLOT_NUMBER" =~ ^[0-1][1-7]$ ]]; then
     exit 1
 fi
 
-echo "Now installing sking $FOLDER_NAME:"
+echo "Now installing skin $FOLDER_NAME:"
 
 # Download and rename each file directly to DEST_DIR
 for FILE in info.png menu.png selector.png; do
