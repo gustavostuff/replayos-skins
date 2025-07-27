@@ -11,6 +11,8 @@ cat > "$OUTPUT_FILE" <<EOF
 
 A collection of ReplayOS skins with installer scripts
 
+:warning: In order to install a skin, You first need to login to ReplayOS [via SSH](https://www.replayos.com/wifi/).
+
 ---
 EOF
 
