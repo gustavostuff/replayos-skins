@@ -14,7 +14,6 @@ FOLDER_NAME=$1
 DEST_DIR="/opt/replay/images"
 
 # Slot number
-echo ""
 read -p "Please enter slot number (1-7): " SLOT_NUMBER
 if ! [[ "$SLOT_NUMBER" =~ ^[1-7]$ ]]; then
     echo "Error: Slot number must be between 1 and 7."
@@ -24,7 +23,6 @@ fi
 FINAL_SLOT=$((SLOT_NUMBER + 10))
 
 clear
-echo ""
 echo "****************************************"
 echo "Now installing skin $FOLDER_NAME to slot $SLOT_NUMBER"
 echo "****************************************"
