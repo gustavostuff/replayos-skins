@@ -12,6 +12,7 @@ cat > "$OUTPUT_FILE" <<EOF
 A collection of ReplayOS skins with installer scripts
 
 :warning: In order to install a skin, you first need to log into ReplayOS [via SSH](https://www.replayos.com/wifi) and copy-paste the corresponding installation command.
+:info: Right now ReplayOS only supports a maximum of 7 user (custom) skins.
 
 ---
 EOF
