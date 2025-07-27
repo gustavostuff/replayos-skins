@@ -11,7 +11,7 @@ cat > "$OUTPUT_FILE" <<EOF
 
 A collection of ReplayOS skins with installer scripts
 
-:warning: In order to install a skin, You first need to login to ReplayOS [via SSH](https://www.replayos.com/wifi/).
+:warning: In order to install a skin, you first need to log into ReplayOS [via SSH](https://www.replayos.com/wifi/ssh) and copy-paste the installation corresponding terminal command.
 
 ---
 EOF
@@ -26,7 +26,7 @@ for SKIN_FOLDER in "$SKINS_DIR"/*/; do
 
 ![]($RAW_IMAGE_BASE/$FOLDER_NAME/menu.png?raw=true)
 
-Installation script:
+Install with command:
 \`\`\`bash
 curl -sL $SCRIPT_URL -o install_skin.sh && bash install_skin.sh $FOLDER_NAME
 \`\`\`
@@ -35,4 +35,6 @@ curl -sL $SCRIPT_URL -o install_skin.sh && bash install_skin.sh $FOLDER_NAME
 EOF
 done
 
+echo "****************************************"
 echo "README.md generated with $(ls -1 "$SKINS_DIR" | wc -l) skin entries."
+echo "****************************************"

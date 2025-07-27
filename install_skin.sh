@@ -1,5 +1,6 @@
 #!/bin/bash
 
+clear
 BASE_URL="https://raw.githubusercontent.com/gustavostuff/replayos-skins/refs/heads/main/skins"
 
 # Check if folder name is provided
@@ -13,6 +14,7 @@ FOLDER_NAME=$1
 DEST_DIR="/opt/replay/images"
 
 # Slot number
+echo ""
 read -p "Please enter slot number (1-7): " SLOT_NUMBER
 if ! [[ "$SLOT_NUMBER" =~ ^[1-7]$ ]]; then
     echo "Error: Slot number must be between 1 and 7."
@@ -21,7 +23,11 @@ fi
 
 FINAL_SLOT=$((SLOT_NUMBER + 10))
 
-echo "Now installing skin $FOLDER_NAME to slot $SLOT_NUMBER (files will be renamed with suffix $FINAL_SLOT):"
+clear
+echo ""
+echo "****************************************"
+echo "Now installing skin $FOLDER_NAME to slot $SLOT_NUMBER"
+echo "****************************************"
 
 # Download and rename each file directly to DEST_DIR
 for FILE in info.png menu.png selector.png; do
@@ -30,4 +36,7 @@ for FILE in info.png menu.png selector.png; do
     wget -O "$DEST_DIR/$NEW_NAME" "$URL" 2>/dev/null || echo "Warning: Failed to download $FILE"
 done
 
-echo "Skin $FOLDER_NAME successfully installed in slot $SLOT_NUMBER (saved as *_$FINAL_SLOT.png)."
+echo ""
+echo "****************************************"
+echo "Skin $FOLDER_NAME successfully installed in slot $SLOT_NUMBER"
+echo "****************************************"

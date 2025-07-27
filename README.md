@@ -2,7 +2,7 @@
 
 A collection of ReplayOS skins with installer scripts
 
-:warning: In order to install a skin, You first need to login to ReplayOS [via SSH](https://www.replayos.com/wifi/).
+:warning: In order to install a skin, you first need to log into ReplayOS [via SSH](https://www.replayos.com/wifi/ssh) and copy-paste the installation corresponding terminal command.
 
 ---
 
@@ -10,7 +10,7 @@ A collection of ReplayOS skins with installer scripts
 
 ![](https://github.com/gustavostuff/replayos-skins/blob/main/skins/eri_kasamoto/menu.png?raw=true)
 
-Installation script:
+Install with command:
 ```bash
 curl -sL https://raw.githubusercontent.com/gustavostuff/replayos-skins/refs/heads/main/install_skin.sh -o install_skin.sh && bash install_skin.sh eri_kasamoto
 ```
@@ -21,7 +21,7 @@ curl -sL https://raw.githubusercontent.com/gustavostuff/replayos-skins/refs/head
 
 ![](https://github.com/gustavostuff/replayos-skins/blob/main/skins/fio_germi/menu.png?raw=true)
 
-Installation script:
+Install with command:
 ```bash
 curl -sL https://raw.githubusercontent.com/gustavostuff/replayos-skins/refs/heads/main/install_skin.sh -o install_skin.sh && bash install_skin.sh fio_germi
 ```
@@ -32,7 +32,7 @@ curl -sL https://raw.githubusercontent.com/gustavostuff/replayos-skins/refs/head
 
 ![](https://github.com/gustavostuff/replayos-skins/blob/main/skins/megaman_5/menu.png?raw=true)
 
-Installation script:
+Install with command:
 ```bash
 curl -sL https://raw.githubusercontent.com/gustavostuff/replayos-skins/refs/heads/main/install_skin.sh -o install_skin.sh && bash install_skin.sh megaman_5
 ```
@@ -43,7 +43,7 @@ curl -sL https://raw.githubusercontent.com/gustavostuff/replayos-skins/refs/head
 
 ![](https://github.com/gustavostuff/replayos-skins/blob/main/skins/metal_slug_x/menu.png?raw=true)
 
-Installation script:
+Install with command:
 ```bash
 curl -sL https://raw.githubusercontent.com/gustavostuff/replayos-skins/refs/heads/main/install_skin.sh -o install_skin.sh && bash install_skin.sh metal_slug_x
 ```
@@ -54,7 +54,7 @@ curl -sL https://raw.githubusercontent.com/gustavostuff/replayos-skins/refs/head
 
 ![](https://github.com/gustavostuff/replayos-skins/blob/main/skins/nes_metroid/menu.png?raw=true)
 
-Installation script:
+Install with command:
 ```bash
 curl -sL https://raw.githubusercontent.com/gustavostuff/replayos-skins/refs/heads/main/install_skin.sh -o install_skin.sh && bash install_skin.sh nes_metroid
 ```
@@ -65,7 +65,7 @@ curl -sL https://raw.githubusercontent.com/gustavostuff/replayos-skins/refs/head
 
 ![](https://github.com/gustavostuff/replayos-skins/blob/main/skins/street_fighter/menu.png?raw=true)
 
-Installation script:
+Install with command:
 ```bash
 curl -sL https://raw.githubusercontent.com/gustavostuff/replayos-skins/refs/heads/main/install_skin.sh -o install_skin.sh && bash install_skin.sh street_fighter
 ```
@@ -76,7 +76,7 @@ curl -sL https://raw.githubusercontent.com/gustavostuff/replayos-skins/refs/head
 
 ![](https://github.com/gustavostuff/replayos-skins/blob/main/skins/super_mario_bros_ground/menu.png?raw=true)
 
-Installation script:
+Install with command:
 ```bash
 curl -sL https://raw.githubusercontent.com/gustavostuff/replayos-skins/refs/heads/main/install_skin.sh -o install_skin.sh && bash install_skin.sh super_mario_bros_ground
 ```
@@ -87,7 +87,7 @@ curl -sL https://raw.githubusercontent.com/gustavostuff/replayos-skins/refs/head
 
 ![](https://github.com/gustavostuff/replayos-skins/blob/main/skins/super_mario_world/menu.png?raw=true)
 
-Installation script:
+Install with command:
 ```bash
 curl -sL https://raw.githubusercontent.com/gustavostuff/replayos-skins/refs/heads/main/install_skin.sh -o install_skin.sh && bash install_skin.sh super_mario_world
 ```
