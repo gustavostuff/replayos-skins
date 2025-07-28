@@ -74,6 +74,17 @@ curl -sL https://raw.githubusercontent.com/gustavostuff/replayos-skins/refs/head
 
 ---
 
+### ocarina_of_time_2
+
+![](https://github.com/gustavostuff/replayos-skins/blob/main/skins/ocarina_of_time_2/menu.png?raw=true)
+
+Install with command:
+```bash
+curl -sL https://raw.githubusercontent.com/gustavostuff/replayos-skins/refs/heads/main/install_skin.sh -o install_skin.sh && bash install_skin.sh ocarina_of_time_2
+```
+
+---
+
 ### street_fighter
 
 ![](https://github.com/gustavostuff/replayos-skins/blob/main/skins/street_fighter/menu.png?raw=true)
