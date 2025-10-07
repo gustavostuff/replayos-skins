@@ -8,6 +8,17 @@ A collection of ReplayOS skins with installer scripts
 
 ---
 
+### dreamroom64
+
+![](https://github.com/gustavostuff/replayos-skins/blob/main/skins/dreamroom64/menu.png?raw=true)
+
+Install with command:
+```bash
+curl -sL https://raw.githubusercontent.com/gustavostuff/replayos-skins/refs/heads/main/install_skin.sh -o install_skin.sh && bash install_skin.sh dreamroom64
+```
+
+---
+
 ### eri_kasamoto
 
 ![](https://github.com/gustavostuff/replayos-skins/blob/main/skins/eri_kasamoto/menu.png?raw=true)
