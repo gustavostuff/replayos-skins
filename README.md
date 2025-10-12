@@ -19,6 +19,17 @@ curl -sL https://raw.githubusercontent.com/gustavostuff/replayos-skins/refs/head
 
 ---
 
+### dreamroom64_neon
+
+![](https://github.com/gustavostuff/replayos-skins/blob/main/skins/dreamroom64_neon/menu.png?raw=true)
+
+Install with command:
+```bash
+curl -sL https://raw.githubusercontent.com/gustavostuff/replayos-skins/refs/heads/main/install_skin.sh -o install_skin.sh && bash install_skin.sh dreamroom64_neon
+```
+
+---
+
 ### eri_kasamoto
 
 ![](https://github.com/gustavostuff/replayos-skins/blob/main/skins/eri_kasamoto/menu.png?raw=true)
